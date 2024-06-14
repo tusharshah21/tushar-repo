@@ -72,8 +72,8 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Payment Dashboard Application",
-    des: "Building a full web application. User and Customer ",
+    title: "ACME Dashboard Application",
+    des: "Dashboard offering real-time data visualization and management of financial transactions.",
     img: "/p1.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg","/postgres.svg"],
     link: "https://nextjs-dashboard-eight-peach-26.vercel.app/",
@@ -105,6 +105,12 @@ export const projects = [
 ];
 
 export const testimonials = [
+  {
+    quote:"Tushar is an excellent co-worker who demonstrates a strong commitment to his work. He is consistently punctual and reliable, making him a valuable asset to any team.",
+    name: "Shubh Sinha",
+    title: "Director (BGC)",
+    img:"https://media.licdn.com/dms/image/D5603AQGd217Vqihnfg/profile-displayphoto-shrink_400_400/0/1706620602075?e=1723680000&v=beta&t=EJvbpALiWWlaCq5KmagMtZUmJd0jQCo3bgxYRpVolMo",
+  },
   {
     quote:
       "Tushar demonstrates a commendable attitude and dedication to continuous self-improvement and technological exploration. His full stack development skills are impressive, and he possesses a deep understanding of user experience. Tushar has a strong grasp of development processes and consistently delivers hard work and creativity in his projects.",
