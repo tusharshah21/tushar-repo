@@ -60,7 +60,7 @@ const Hero = () => {
             Hi! I&apos;m Tushar, a Full Stack Developer based in India.
           </p>
 
-          <a href="https://drive.google.com/file/d/1nkRb2xcqJ9ALF1cQhZ1u8oFCgVN3ziE6/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1-_RJYWfbTmnvDjcVp4CcD_k21x1J6lv2/view?usp=sharing" target="_blank">
             <MagicButton
               title="Show my resume"
               icon={<FaFile />}
