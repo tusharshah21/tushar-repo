@@ -271,7 +271,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Graphic Designer",
-    desc: "Designed 50+ marketing materials, contributing to a 30% increase in society membership.",
+    desc: "Designed 150+ marketing materials, contributing to a 30% increase in society membership.",
     brand:" GDG Cloud, IEEE CIS, ExpressBytes",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
