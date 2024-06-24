@@ -70,8 +70,33 @@ export const gridItems = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
+    title: "Gemini clone (API integration)",
+    des: "Gemini API to provide instant responses to user prompts, featuring a sidebar for recent questions, predefined queries, and a loader animation for answer display.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/API.webp", "/fm.svg"],
+    link: "https://gemini-clone-azure-nine.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Robowar Registration Platform",
+    des: "Developed a comprehensive registration platform for the Robowar competition, featuring user-friendly interfaces, secure data handling, and real-time updates.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mdb.svg", "/fm.svg"],
+    link: "https://robowars.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 4,
     title: "ACME Dashboard Application",
     des: "Dashboard offering real-time data visualization and management of financial transactions.",
     img: "/p1.png",
@@ -83,30 +108,6 @@ export const projects = [
       "/postgres.svg",
     ],
     link: "https://nextjs-dashboard-eight-peach-26.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Gemini clone (API integration)",
-    des: "Gemini API to provide instant responses to user prompts, featuring a sidebar for recent questions, predefined queries, and a loader animation for answer display.",
-    img: "/p2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/API.webp", "/fm.svg"],
-    link: "https://gemini-clone-azure-nine.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Robowar Registration Platform",
-    des: "Developed a comprehensive registration platform for the Robowar competition, featuring user-friendly interfaces, secure data handling, and real-time updates.",
-    img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/fm.svg"],
-    link: "https://robowars.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
   },
 ];
 
