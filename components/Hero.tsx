@@ -43,21 +43,20 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Your Vision, My Code
+            Your Vision, My Innovation
           </p>
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Delivering Comprehensive and Custom Web Solutions"
+            words="Full Stack Developer Crafting Unique Digital Solutions"
             className="text-center text-[40px] md:text-5xl xl:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Tushar, a Full Stack Developer based in India.
+            Hi! I&apos;m Tushar, dedicated to bringing your ideas to life.
           </p>
 
           <a href="https://drive.google.com/file/d/1-_RJYWfbTmnvDjcVp4CcD_k21x1J6lv2/view?usp=sharing" target="_blank">

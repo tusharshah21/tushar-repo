@@ -50,11 +50,11 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building fullstack application",
-    description: "The Inside Scoop",
+    description: "This is me",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/profile.png",
     spareImg: "/grid.svg",
   },
   {
@@ -302,6 +302,15 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/tushar21shah/",
-
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/shahtusharkumar/",
+  },
+  {
+    id: 5,
+    img: "/wha.svg",
+    link: "https://wa.me/+917300559866",
   },
 ];
