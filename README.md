@@ -1,19 +1,12 @@
-# 🌟 My Next.js Portfolio
+# 🌟 My Personal Portfolio
 
 Welcome to my portfolio built with Next.js! This project showcases my work, skills, and projects in a sleek and modern web application.
 
 ## 🚀 Live Demo
 Check out the live demo of my portfolio [here](https://tushar-portfolio-lemon.vercel.app/).
 
-## 🎨 Features
-- **Responsive Design:** Looks great on all devices.
-- **Modern Technologies:** Built with Next.js, Tailwind CSS, Framer Motion, and Three.js.
-- **Dynamic Content:** Content is dynamically fetched and rendered.
-- **SEO Optimized:** Best practices for search engine optimization.
-
 ## 📂 Project Structure
 Here's a brief overview of the project's structure:
-
 
 ## 🛠️ Technologies Used
 - [Next.js](https://nextjs.org/)
@@ -29,17 +22,11 @@ Here's a brief overview of the project's structure:
 ### Projects Page
 ![image](https://github.com/tusharshah21/tushar-repo/assets/96661387/595f9ca4-6237-49c9-a3ba-62c377927372)
 
-## 📈 Analytics
-This portfolio is integrated with [Google Analytics](https://analytics.google.com/) to track visitor engagement and performance.
-
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
 Feel free to reach out to me via [tusharkumarshah14394@example.com](mailto:tusharkumarshah14394@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/tushar21shah/).
-
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📚 Learn More
 To learn more about the technologies used:
