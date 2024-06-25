@@ -3,7 +3,14 @@
 Welcome to my portfolio built with Next.js! This project showcases my work, skills, and projects in a sleek and modern web application.
 
 ## 🚀 Live Demo
+
 Check out the live demo of my portfolio [here](https://tushar-portfolio-lemon.vercel.app/).
+
+[![Deployed with Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com?utm_source=your-username&utm_campaign=oss)
+
+You can also view the design process on [Figma](https://www.figma.com/design/wO2BMzNOy4hnTdWFzRGD4n/Modern-Minimal-Portfolio-(Copy)?node-id=2001-5&t=KQUUf1ydyK4VXI13-1).
+
+[![Figma](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/20px-Figma-logo.svg.png)](https://www.figma.com/design/wO2BMzNOy4hnTdWFzRGD4n/Modern-Minimal-Portfolio-(Copy)?node-id=2001-5&t=KQUUf1ydyK4VXI13-1)
 
 ## 📂 Project Structure
 Here's a brief overview of the project's structure:
