@@ -1,5 +1,5 @@
 import { FaFile } from "react-icons/fa6";
-
+import pfp from "../public/profile_pic.png";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -40,11 +40,12 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative mb-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <img src={pfp.src} alt="profile picture" className="w-1/5"/>
+          {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Your Vision, My Innovation
-          </p>
+          </p> */}
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
@@ -56,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Tushar, dedicated to bringing your ideas to life.
+            Hi! I&apos;m Tushar, passionate about transforming concepts into applications.
           </p>
 
           <a href="https://drive.google.com/file/d/1-_RJYWfbTmnvDjcVp4CcD_k21x1J6lv2/view?usp=sharing" target="_blank">
