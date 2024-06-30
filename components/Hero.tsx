@@ -46,11 +46,6 @@ const Hero = () => {
           {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Your Vision, My Innovation
           </p> */}
-
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
             words="Full Stack Developer Crafting Unique Digital Solutions"
             className="text-center text-[40px] md:text-5xl xl:text-6xl"
