@@ -34,7 +34,6 @@ const Hero = () => {
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -51,9 +50,13 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl xl:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <TextGenerateEffect
+            words="Hi! I&apos;m Tushar, passionate about transforming concepts into applications."
+            className="font-normal text-center md:tracking-wider -mt-2 text-sm md:text-lg lg:text-2xl"
+          />
+          {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Tushar, passionate about transforming concepts into applications.
-          </p>
+          </p> */}
 
           <a href="https://drive.google.com/file/d/1-_RJYWfbTmnvDjcVp4CcD_k21x1J6lv2/view?usp=sharing" target="_blank">
             <MagicButton
