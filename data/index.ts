@@ -112,9 +112,9 @@ export const projects = [
     id: 3,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://hackoverflow-society-website.vercel.app/",
   },
   {
     id: 4,
