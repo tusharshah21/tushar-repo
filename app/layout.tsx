@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/profile_pic.png" sizes="any" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
