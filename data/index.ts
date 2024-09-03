@@ -134,31 +134,32 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:"Tushar is an excellent co-worker who demonstrates a strong commitment to his work. He is consistently punctual and reliable, making him a valuable asset to any team.",
+    quote:
+      "Tushar is an excellent co-worker who demonstrates a strong commitment to his work. He is consistently punctual and reliable, making him a valuable asset to any team.",
     name: "Shubh Sinha",
     title: "Director (BGC)",
-    img:"https://media.licdn.com/dms/image/D5603AQGd217Vqihnfg/profile-displayphoto-shrink_400_400/0/1706620602075?e=1723680000&v=beta&t=EJvbpALiWWlaCq5KmagMtZUmJd0jQCo3bgxYRpVolMo",
+    img: "https://media.licdn.com/dms/image/v2/D5603AQGd217Vqihnfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706620602075?e=1730937600&v=beta&t=GiL0vC1vN3_OuTPuHrS80vQowuSiZnrQn_kEcz3PRtk",
   },
   {
     quote:
       "Tushar demonstrates a commendable attitude and dedication to continuous self-improvement and technological exploration. His full stack development skills are impressive, and he possesses a deep understanding of user experience. Tushar has a strong grasp of development processes and consistently delivers hard work and creativity in his projects.",
     name: "Vishal Kumar",
     title: "Associate Product Manager (QArt Fashion)  ",
-    img:"https://media.licdn.com/dms/image/C4D03AQFA2O3mWEZ4ew/profile-displayphoto-shrink_400_400/0/1654401977436?e=1723680000&v=beta&t=p3WVKStEPM4-rZx8AWJxIPO7cgyTqO7RVio1ELdQoPg",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQFA2O3mWEZ4ew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1654401977436?e=1730937600&v=beta&t=zYxoEokntSCLRQUmUNoHDVkJYQsLaJUfA_MJgnfEXs4",
   },
   {
     quote:
       "Tushar has a positive attitude and is always striving to improve both personally and technologically. He shows a genuine eagerness to learn and grow, which makes him a valuable asset to any project.",
     name: "Mohammad Farmaan",
     title: "Tech Lead (QArt Fashion)",
-    img:"https://media.licdn.com/dms/image/D5603AQEfUmhDnlel5g/profile-displayphoto-shrink_400_400/0/1714892420705?e=1723680000&v=beta&t=TNpv9x7YUq3rTJArnxQEhLirPOpSFf0wHM2aqZxGh5Y",
+    img: "https://media.licdn.com/dms/image/v2/D5603AQHkzi7LPl7B9w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1722426015437?e=1730937600&v=beta&t=5ZbjzvN_SINMSNncgekgljspJg7U2OqMmVAKjnGctuI",
   },
   {
     quote:
       "Tushar developed an 'add to cart' functionality for our e-commerce website, showcasing his problem-solving abilities and innovative thinking. His attention to detail and understanding of user experience were impressive. I am confident that Tushar's skills and dedication will make him an invaluable asset to any team he joins.",
     name: "Channabasava Yadav",
     title: "Program Manager (EDUNET FOUNDATION)",
-    img:"https://media.licdn.com/dms/image/C4D03AQFEeCxm7XlVcA/profile-displayphoto-shrink_400_400/0/1617868477826?e=1723680000&v=beta&t=Kk36CaptQyOdAMq5Vd-vp_RUy-I1A6t6_Fzcs80Nj6g",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQFEeCxm7XlVcA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1617868477826?e=1730937600&v=beta&t=DG6yeMvb8HQ12a6h6x2R5JA-rCyvoX8BVytErRHGGHk",
   },
 ];
 
