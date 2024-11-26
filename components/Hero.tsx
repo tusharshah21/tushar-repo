@@ -16,9 +16,7 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-        <Spotlight 
-          className="left-80 top-28 h-[80vh] w-[50vw]" 
-          fill="blue" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       <div
@@ -34,7 +32,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative mb-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center leading-[4rem]">
-          <img src={pfp.src} alt="profile picture" className="w-[19%]"/>
+          <img src={pfp.src} alt="profile picture" className="w-[19%]" />
           {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Your Vision, My Innovation
           </p> */}
@@ -44,14 +42,17 @@ const Hero = () => {
           />
 
           <TextGenerateEffect
-            words="Hi! I&apos;m Tushar, passionate about transforming concepts into applications."
+            words="Hi! I'm Tushar, passionate about transforming concepts into applications."
             className="font-normal text-center md:tracking-wider -mt-2 text-sm md:text-lg lg:text-2xl"
           />
           {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Tushar, passionate about transforming concepts into applications.
           </p> */}
 
-          <a href="https://drive.google.com/file/d/1-_RJYWfbTmnvDjcVp4CcD_k21x1J6lv2/view?usp=sharing" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1Uo6cpuO4lVzN2UzhN5tUEBGLvNjGYjK7/view"
+            target="_blank"
+          >
             <MagicButton
               title="Show my resume"
               icon={<FaFile />}
