@@ -91,7 +91,6 @@ export const gridItems = [
 ];
 
 export const projects = [
-  
   {
     id: 1,
     title: "Gemini clone (API integration)",
@@ -111,7 +110,7 @@ export const projects = [
   {
     id: 3,
     title: "Community Platform",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Developed a responsive community platform for Hackoverflow Society, leveraging Next.js, PostgreSQL, and WebSocket for seamless user experience and real-time interactions.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://hackoverflow-society-website.vercel.app/",
