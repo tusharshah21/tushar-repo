@@ -1,16 +1,19 @@
+"use client";
+
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from "lottie-react";
-
 import { cn } from "@/lib/utils";
-
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import dynamic from "next/dynamic";
+
+const Lottie = dynamic(() => import("lottie-react"), {
+  ssr: false,
+});
 
 export const BentoGrid = ({
   className,
@@ -99,8 +102,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 1 && "w-full opacity-50"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 1 && "w-full opacity-50"
+          } `}
         >
           {spareImg && (
             <img
@@ -136,7 +140,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* for the github 3d globe */} 
+          {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
@@ -176,8 +180,9 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie
