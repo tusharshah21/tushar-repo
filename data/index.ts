@@ -8,11 +8,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Currently building full stack applications & convincing my computer to cooperate.",
+    title:
+      "Currently building full stack applications & convincing my computer to cooperate.",
     description: "This is me",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-40",
-    titleClassName: "justify-center md:justify-start lg:justify-center w-64 lg:w-full",
+    titleClassName:
+      "justify-center md:justify-start lg:justify-center w-64 lg:w-full",
     img: "/profile.png",
     spareImg: "/grid.png",
   },
@@ -59,7 +61,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "I prioritize working closely with clients and fostering open communication.",
+    title:
+      "I prioritize working closely with clients and fostering open communication.",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "w-full h-full",
@@ -117,17 +120,17 @@ export const projects = [
   },
   {
     id: 4,
-    title: "ACME Dashboard Application",
-    des: "Dashboard offering real-time data visualization and management of financial transactions.",
+    title: "EtherSend DApp",
+    des: "A full-stack decentralized application for transferring Ethereum with messages and GIFs, featuring MetaMask integration, transaction history, and a modern UI.",
     img: "/p1.png",
     iconLists: [
-      "/next.svg",
+      "/re.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/fm.svg",
-      "/postgres.svg",
+      "/js.svg",
+      "/solana.svg",
+      "/hardhat.svg",
     ],
-    link: "https://nextjs-dashboard-eight-peach-26.vercel.app/",
+    link: "https://crypto-transfer-web3.vercel.app/",
   },
 ];
 
