@@ -3,6 +3,7 @@ import pfp from "../public/profile_pic.png";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -32,7 +33,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative mb-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center leading-[4rem]">
-          <img src={pfp.src} alt="profile picture" className="w-[19%]" />
+          <Image src={pfp.src} alt="profile picture" width={400} height={400} className="w-[19%]" />
           {/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Your Vision, My Innovation
           </p> */}
