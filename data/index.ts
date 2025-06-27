@@ -144,7 +144,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Tushar demonstrates a commendable attitude and dedication to continuous self-improvement and technological exploration. His full stack development skills are impressive, and he possesses a deep understanding of user experience. Tushar has a strong grasp of development processes and consistently delivers hard work and creativity in his projects.",
+      "Tushar demonstrates a commendable attitude and dedication to continuous self-improvement and technological exploration. His full stack development skills are impressive, and he possesses a deep understanding of user experience.",
     name: "Vishal Kumar",
     title: "Associate Product Manager (QArt Fashion)  ",
     img: "/linkedin/vishal.jpg",
@@ -158,7 +158,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Tushar developed an 'add to cart' functionality for our e-commerce website, showcasing his problem-solving abilities and innovative thinking. His attention to detail and understanding of user experience were impressive. I am confident that Tushar's skills and dedication will make him an invaluable asset to any team he joins.",
+      "Tushar developed an 'add to cart' functionality for our e-commerce website, showcasing his problem-solving abilities and innovative thinking. His attention to detail and understanding of user experience were impressive.",
     name: "Channabasava Yadav",
     title: "Program Manager (EDUNET FOUNDATION)",
     img: "/linkedin/cy.jpg",
